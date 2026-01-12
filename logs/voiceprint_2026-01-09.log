@@ -1,0 +1,2101 @@
+2026-01-09 09:33:33 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:33:33 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:33:38 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:33:38 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:33:53 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:33:53 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:33:57 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:33:57 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:34:23 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:34:23 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:34:26 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:34:26 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:34:26 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:34:26 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 0，SHERPA 算法需要 3 个，状态 不足
+2026-01-09 09:34:26 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:41:31 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:41:31 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:41:36 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:41:36 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:41:36 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:41:36 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 0，SHERPA 算法需要 3 个，状态 不足
+2026-01-09 09:41:36 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:42:18 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:42:18 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:42:23 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:42:23 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:42:23 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:42:23 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 0，SHERPA 算法需要 3 个，状态 不足
+2026-01-09 09:42:23 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:42:24 | INFO     | train_count_setting | 用户「pyd」的训练音频数量设置窗口初始化完成，SHERPA算法最低要求3条
+2026-01-09 09:42:24 | INFO     | main_window     | 用户「pyd」打开了训练音频数量设置窗口
+2026-01-09 09:42:26 | SUCCESS  | train_count_setting | 用户「pyd」确认训练音频数量：3条（SHERPA算法最低要求3条）
+2026-01-09 09:42:26 | INFO     | train_data_window | 用户「pyd」的训练数据采集窗口初始化完成，采集数量：3条，训练素材已随机打乱
+2026-01-09 09:42:26 | DEBUG    | train_data_window | 用户「pyd」刷新训练音频列表，当前已录制 0 个训练文件
+2026-01-09 09:42:27 | INFO     | train_data_window | 用户「pyd」开始录制训练音频（第 1 条），保存路径：../voice_dataset\pyd\train_1_1767922947.wav，录制时长：4 秒
+2026-01-09 09:42:27 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\train_1_1767922947.wav
+  录制时长：4 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:42:27 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:42:27 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:42:27 | INFO     | audio_recorder  | 开始音频采集，总数据块数：62，预计录制4秒
+2026-01-09 09:42:28 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/62个数据块），剩余4.0秒
+2026-01-09 09:42:28 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余4.0秒
+2026-01-09 09:42:28 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.9秒
+2026-01-09 09:42:28 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.9秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.8秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.7秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.7秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.6秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.6秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.5秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.4秒
+2026-01-09 09:42:29 | DEBUG    | audio_recorder  | 音频采集进度：17%（第11/62个数据块），剩余3.4秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.4秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.3秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.2秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.2秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.1秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.0秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余3.0秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.9秒
+2026-01-09 09:42:29 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.8秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.8秒
+2026-01-09 09:42:30 | DEBUG    | audio_recorder  | 音频采集进度：33%（第21/62个数据块），剩余2.7秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.7秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.7秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.6秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.5秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.5秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.4秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.3秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.3秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.2秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.1秒
+2026-01-09 09:42:30 | DEBUG    | audio_recorder  | 音频采集进度：50%（第31/62个数据块），剩余2.1秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.1秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.0秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余2.0秒
+2026-01-09 09:42:30 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.9秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.8秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.8秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.7秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.6秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.6秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.5秒
+2026-01-09 09:42:31 | DEBUG    | audio_recorder  | 音频采集进度：66%（第41/62个数据块），剩余1.4秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.4秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.4秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.3秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.2秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.2秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.1秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.1秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余1.0秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.9秒
+2026-01-09 09:42:31 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.9秒
+2026-01-09 09:42:32 | DEBUG    | audio_recorder  | 音频采集进度：82%（第51/62个数据块），剩余0.8秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.8秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.7秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.7秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.6秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.5秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.5秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.4秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.4秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.3秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.2秒
+2026-01-09 09:42:32 | DEBUG    | audio_recorder  | 音频采集进度：98%（第61/62个数据块），剩余0.2秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.2秒
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 1 条）：正在录制：剩余0.1秒
+2026-01-09 09:42:32 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\train_1_1767922947.wav
+2026-01-09 09:42:32 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\train_1_1767922947.wav（文件大小：126976 字节）
+2026-01-09 09:42:32 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」刷新训练音频列表，当前已录制 1 个训练文件
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」当前训练采集进度：第 2 条 / 共 3 条
+2026-01-09 09:42:32 | INFO     | train_data_window | 用户「pyd」将训练文本从第 1 条切换为第 2 条
+2026-01-09 09:42:32 | WARNING  | train_data_window | 用户「pyd」训练音频录制被取消（第 2 条），未生成有效文件
+2026-01-09 09:42:32 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：录制完成：已保存文件
+2026-01-09 09:42:32 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:42:32 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:42:32 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:42:34 | INFO     | train_data_window | 用户「pyd」开始录制训练音频（第 2 条），保存路径：../voice_dataset\pyd\train_2_1767922954.wav，录制时长：4 秒
+2026-01-09 09:42:34 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\train_2_1767922954.wav
+  录制时长：4 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:42:34 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:42:34 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:42:34 | INFO     | audio_recorder  | 开始音频采集，总数据块数：62，预计录制4秒
+2026-01-09 09:42:35 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/62个数据块），剩余4.0秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余4.0秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.9秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.9秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.8秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.7秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.7秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.6秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.6秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.5秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.4秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.4秒
+2026-01-09 09:42:35 | DEBUG    | audio_recorder  | 音频采集进度：17%（第11/62个数据块），剩余3.4秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.3秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.2秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.2秒
+2026-01-09 09:42:35 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.1秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.0秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余3.0秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.9秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.8秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.8秒
+2026-01-09 09:42:36 | DEBUG    | audio_recorder  | 音频采集进度：33%（第21/62个数据块），剩余2.7秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.7秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.7秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.6秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.5秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.5秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.4秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.3秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.3秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.2秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.1秒
+2026-01-09 09:42:36 | DEBUG    | audio_recorder  | 音频采集进度：50%（第31/62个数据块），剩余2.1秒
+2026-01-09 09:42:36 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.1秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.0秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余2.0秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.9秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.8秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.8秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.7秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.6秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.6秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.5秒
+2026-01-09 09:42:37 | DEBUG    | audio_recorder  | 音频采集进度：66%（第41/62个数据块），剩余1.4秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.4秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.4秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.3秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.2秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.2秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.1秒
+2026-01-09 09:42:37 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.1秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余1.0秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.9秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.9秒
+2026-01-09 09:42:38 | DEBUG    | audio_recorder  | 音频采集进度：82%（第51/62个数据块），剩余0.8秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.8秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.7秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.7秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.6秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.5秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.5秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.4秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.4秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.3秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.2秒
+2026-01-09 09:42:38 | DEBUG    | audio_recorder  | 音频采集进度：98%（第61/62个数据块），剩余0.2秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.2秒
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 2 条）：正在录制：剩余0.1秒
+2026-01-09 09:42:38 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\train_2_1767922954.wav
+2026-01-09 09:42:38 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\train_2_1767922954.wav（文件大小：126976 字节）
+2026-01-09 09:42:38 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」刷新训练音频列表，当前已录制 2 个训练文件
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」当前训练采集进度：第 3 条 / 共 3 条
+2026-01-09 09:42:38 | INFO     | train_data_window | 用户「pyd」将训练文本从第 2 条切换为第 3 条
+2026-01-09 09:42:38 | WARNING  | train_data_window | 用户「pyd」训练音频录制被取消（第 3 条），未生成有效文件
+2026-01-09 09:42:38 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：录制完成：已保存文件
+2026-01-09 09:42:39 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:42:39 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:42:39 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:42:40 | INFO     | train_data_window | 用户「pyd」开始录制训练音频（第 3 条），保存路径：../voice_dataset\pyd\train_3_1767922960.wav，录制时长：4 秒
+2026-01-09 09:42:40 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\train_3_1767922960.wav
+  录制时长：4 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:42:40 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:42:40 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:42:40 | INFO     | audio_recorder  | 开始音频采集，总数据块数：62，预计录制4秒
+2026-01-09 09:42:40 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/62个数据块），剩余4.0秒
+2026-01-09 09:42:40 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余4.0秒
+2026-01-09 09:42:40 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.9秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.9秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.8秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.7秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.7秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.6秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.6秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.5秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.4秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.4秒
+2026-01-09 09:42:41 | DEBUG    | audio_recorder  | 音频采集进度：17%（第11/62个数据块），剩余3.4秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.3秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.2秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.2秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.1秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.0秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余3.0秒
+2026-01-09 09:42:41 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.9秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.8秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.8秒
+2026-01-09 09:42:42 | DEBUG    | audio_recorder  | 音频采集进度：33%（第21/62个数据块），剩余2.7秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.7秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.7秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.6秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.5秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.5秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.4秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.3秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.3秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.2秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.1秒
+2026-01-09 09:42:42 | DEBUG    | audio_recorder  | 音频采集进度：50%（第31/62个数据块），剩余2.1秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.1秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.0秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余2.0秒
+2026-01-09 09:42:42 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.9秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.8秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.8秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.7秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.6秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.6秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.5秒
+2026-01-09 09:42:43 | DEBUG    | audio_recorder  | 音频采集进度：66%（第41/62个数据块），剩余1.4秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.4秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.4秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.3秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.2秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.2秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.1秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.1秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余1.0秒
+2026-01-09 09:42:43 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.9秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.9秒
+2026-01-09 09:42:44 | DEBUG    | audio_recorder  | 音频采集进度：82%（第51/62个数据块），剩余0.8秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.8秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.7秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.7秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.6秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.5秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.5秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.4秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.4秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.3秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.2秒
+2026-01-09 09:42:44 | DEBUG    | audio_recorder  | 音频采集进度：98%（第61/62个数据块），剩余0.2秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.2秒
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：正在录制：剩余0.1秒
+2026-01-09 09:42:44 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\train_3_1767922960.wav
+2026-01-09 09:42:44 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\train_3_1767922960.wav（文件大小：126976 字节）
+2026-01-09 09:42:44 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」刷新训练音频列表，当前已录制 3 个训练文件
+2026-01-09 09:42:44 | DEBUG    | train_data_window | 用户「pyd」训练音频录制状态（第 3 条）：录制完成：已保存文件
+2026-01-09 09:42:44 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:42:44 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:42:44 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:42:45 | SUCCESS  | train_data_window | 用户「pyd」训练数据采集完成（3条），已弹出提示框
+2026-01-09 09:42:45 | SUCCESS  | train_data_window | 用户「pyd」训练音频录制成功（第 3 条），文件已保存：../voice_dataset\pyd\train_3_1767922960.wav
+2026-01-09 09:42:58 | INFO     | train_count_setting | 用户「pyd」训练数据采集窗口关闭，已录制3条样本，即将转发给主界面
+2026-01-09 09:42:58 | DEBUG    | main_window     | 用户「pyd」刷新了数据状态和模型状态
+2026-01-09 09:42:58 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:42:58 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:42:58 | INFO     | train_data_window | 用户「pyd」关闭了训练数据采集窗口（已采集3条训练样本）
+2026-01-09 09:43:13 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:43:13 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:43:18 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:43:18 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:43:18 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:43:18 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:43:18 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:43:29 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:43:29 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:43:34 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:43:34 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:43:34 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:43:34 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:43:34 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:43:39 | INFO     | train_model_window | 用户「pyd」的 SHERPA 模型训练窗口初始化完成
+2026-01-09 09:43:39 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:43:45 | INFO     | main_window     | 用户「pyd」将识别算法从 SHERPA 切换为 ECAPA
+2026-01-09 09:43:45 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，ECAPA 算法需要 3 个，状态 足够
+2026-01-09 09:43:45 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:43:46 | INFO     | train_model_window | 用户「pyd」的 ECAPA 模型训练窗口初始化完成
+2026-01-09 09:43:46 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:43:50 | INFO     | train_model_window | 用户「pyd」的 ECAPA 模型训练窗口初始化完成
+2026-01-09 09:43:50 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:44:19 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:44:19 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:44:23 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:44:23 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:44:23 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:44:23 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:44:23 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:44:28 | INFO     | train_model_window | 用户「pyd」的 SHERPA 模型训练窗口初始化完成
+2026-01-09 09:44:28 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:44:28 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:44:52 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:44:52 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:44:55 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:44:55 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:44:55 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:44:55 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:44:55 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:44:59 | INFO     | train_model_window | 用户「pyd」的 SHERPA 模型训练窗口初始化完成
+2026-01-09 09:44:59 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:44:59 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:44:59 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:45:37 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:45:37 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:45:47 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:45:47 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:45:47 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:45:47 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:45:47 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=未训练，ECAPA=未训练
+2026-01-09 09:45:51 | INFO     | train_model_window | 用户「pyd」的 SHERPA 模型训练窗口初始化完成
+2026-01-09 09:45:51 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:45:51 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:45:51 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:45:53 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:45:55 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：SHERPA，模型保存路径：../voice_dataset\pyd\SHERPA_model.pkl
+2026-01-09 09:45:55 | INFO     | train_model_window | 用户「pyd」启动了 SHERPA 模型训练线程
+2026-01-09 09:45:55 | INFO     | main_window     | 用户「pyd」打开了 SHERPA 模型训练窗口，当前样本数：3
+2026-01-09 09:45:55 | INFO     | model_trainer   | 【pyd】SHERPA模型训练启动，有效音频样本数：3
+2026-01-09 09:45:55 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始提取3个音频的嵌入特征
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.062069
+2026-01-09 09:45:55 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：开始使用SHERPA算法训练模型...
+2026-01-09 09:45:55 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：10%
+2026-01-09 09:45:55 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：30%
+2026-01-09 09:45:55 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：已成功加载SHERPA预训练模型...
+2026-01-09 09:45:55 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：提取SHERPA音频嵌入特征...
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:45:55 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\train_1_1767922947.wav
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:45:55 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：50%
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.070343
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:45:55 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\train_2_1767922954.wav
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:45:55 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：70%
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.070503
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:45:55 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\train_3_1767922960.wav
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:45:55 | DEBUG    | model_trainer   | 【pyd】ECAPA模型：嵌入特征提取完成，有效嵌入数量：3，嵌入维度：(256,)
+2026-01-09 09:45:55 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：90%
+2026-01-09 09:45:55 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：生成SHERPA声纹模板（平均嵌入）...
+2026-01-09 09:45:56 | WARNING  | model_trainer   | 【pyd】SHERPA样本数=3 < 5，使用默认阈值 0.76
+2026-01-09 09:45:56 | SUCCESS  | model_trainer   | 【pyd】SHERPA模型训练成功，模型已保存至：../voice_dataset\pyd\SHERPA_model.pkl
+2026-01-09 09:45:56 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：100%
+2026-01-09 09:45:56 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：SHERPA模型训练完成
+2026-01-09 09:45:56 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：SHERPA模型训练成功
+2026-01-09 09:45:57 | SUCCESS  | train_model_window | 用户「pyd」SHERPA 模型训练成功：SHERPA模型训练成功
+2026-01-09 09:45:57 | DEBUG    | main_window     | 用户「pyd」刷新了数据状态和模型状态
+2026-01-09 09:45:57 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:45:57 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=未训练
+2026-01-09 09:45:57 | INFO     | train_model_window | 用户「pyd」关闭了 SHERPA 模型训练窗口
+2026-01-09 09:45:59 | INFO     | main_window     | 用户「pyd」将识别算法从 SHERPA 切换为 ECAPA
+2026-01-09 09:45:59 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，ECAPA 算法需要 3 个，状态 足够
+2026-01-09 09:45:59 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=未训练
+2026-01-09 09:45:59 | INFO     | train_model_window | 用户「pyd」的 ECAPA 模型训练窗口初始化完成
+2026-01-09 09:45:59 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:45:59 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:45:59 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:45:59 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:46:00 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：ECAPA，模型保存路径：../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:46:00 | INFO     | train_model_window | 用户「pyd」启动了 ECAPA 模型训练线程
+2026-01-09 09:46:00 | INFO     | model_trainer   | 【pyd】ECAPA模型训练启动，有效音频样本数：3
+2026-01-09 09:46:00 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始提取3个音频的嵌入特征
+2026-01-09 09:46:00 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\train_1_1767922947.wav
+2026-01-09 09:46:00 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.062069, 采样率=16000Hz
+2026-01-09 09:46:00 | INFO     | main_window     | 用户「pyd」打开了 ECAPA 模型训练窗口，当前样本数：3
+2026-01-09 09:46:00 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：开始使用ECAPA算法训练模型...
+2026-01-09 09:46:00 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：10%
+2026-01-09 09:46:00 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：30%
+2026-01-09 09:46:00 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：已成功加载ECAPA预训练模型...
+2026-01-09 09:46:00 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：提取ECAPA音频嵌入特征...
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.062283
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\train_2_1767922954.wav
+2026-01-09 09:46:01 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：50%
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.070343, 采样率=16000Hz
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.070569
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\train_3_1767922960.wav
+2026-01-09 09:46:01 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：70%
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.070503, 采样率=16000Hz
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.460s, RMS=0.075500
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:46:01 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：90%
+2026-01-09 09:46:01 | DEBUG    | model_trainer   | 【pyd】ECAPA模型：嵌入特征提取完成，有效嵌入数量：3，嵌入维度：torch.Size([1, 192])
+2026-01-09 09:46:01 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：生成ECAPA声纹模板（平均嵌入）...
+2026-01-09 09:46:01 | INFO     | model_trainer   | 【pyd】ECAPA模板筛选：原始 3 → 保留 2
+2026-01-09 09:46:01 | WARNING  | model_trainer   | 有效嵌入不足，回退使用全部嵌入
+2026-01-09 09:46:01 | WARNING  | model_trainer   | 【pyd】ECAPA样本数=3 < 5，使用默认阈值 0.66
+2026-01-09 09:46:01 | INFO     | model_trainer   | 【pyd】ECAPA模型：声纹模板生成完成，已保存至../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:46:01 | SUCCESS  | model_trainer   | 【pyd】ECAPA模型训练成功，模型已保存至：../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:46:01 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：100%
+2026-01-09 09:46:01 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：ECAPA模型训练完成
+2026-01-09 09:46:01 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：ECAPA模型训练成功
+2026-01-09 09:46:02 | SUCCESS  | train_model_window | 用户「pyd」ECAPA 模型训练成功：ECAPA模型训练成功
+2026-01-09 09:46:03 | DEBUG    | main_window     | 用户「pyd」刷新了数据状态和模型状态
+2026-01-09 09:46:03 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，ECAPA 算法需要 3 个，状态 足够
+2026-01-09 09:46:03 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:46:03 | INFO     | train_model_window | 用户「pyd」关闭了 ECAPA 模型训练窗口
+2026-01-09 09:46:40 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:46:40 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:46:44 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:46:44 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:46:44 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:46:44 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:46:44 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:46:48 | INFO     | train_model_window | 用户「pyd」的 SHERPA 模型训练窗口初始化完成
+2026-01-09 09:46:48 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:46:48 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:46:48 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:46:49 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:46:50 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：SHERPA，模型保存路径：../voice_dataset\pyd\SHERPA_model.pkl
+2026-01-09 09:46:50 | INFO     | train_model_window | 用户「pyd」启动了 SHERPA 模型训练线程
+2026-01-09 09:46:50 | INFO     | main_window     | 用户「pyd」打开了 SHERPA 模型训练窗口，当前样本数：3
+2026-01-09 09:46:50 | INFO     | model_trainer   | 【pyd】SHERPA模型训练启动，有效音频样本数：3
+2026-01-09 09:46:50 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始提取3个音频的嵌入特征
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.062069
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:46:50 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：开始使用SHERPA算法训练模型...
+2026-01-09 09:46:50 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：10%
+2026-01-09 09:46:50 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：30%
+2026-01-09 09:46:50 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：已成功加载SHERPA预训练模型...
+2026-01-09 09:46:50 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：提取SHERPA音频嵌入特征...
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:46:50 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\train_1_1767922947.wav
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:46:50 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：50%
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.070343
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:46:50 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\train_2_1767922954.wav
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:46:50 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：70%
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.070503
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:46:50 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\train_3_1767922960.wav
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:46:50 | DEBUG    | model_trainer   | 【pyd】ECAPA模型：嵌入特征提取完成，有效嵌入数量：3，嵌入维度：(256,)
+2026-01-09 09:46:50 | WARNING  | model_trainer   | 【pyd】SHERPA样本数=3 < 5，使用默认阈值 0.76
+2026-01-09 09:46:50 | SUCCESS  | model_trainer   | 【pyd】SHERPA模型训练成功，模型已保存至：../voice_dataset\pyd\SHERPA_model.pkl
+2026-01-09 09:46:50 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：90%
+2026-01-09 09:46:50 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：生成SHERPA声纹模板（平均嵌入）...
+2026-01-09 09:46:50 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：100%
+2026-01-09 09:46:50 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：SHERPA模型训练完成
+2026-01-09 09:46:50 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：SHERPA模型训练成功
+2026-01-09 09:46:51 | SUCCESS  | train_model_window | 用户「pyd」SHERPA 模型训练成功：SHERPA模型训练成功
+2026-01-09 09:46:52 | DEBUG    | main_window     | 用户「pyd」刷新了数据状态和模型状态
+2026-01-09 09:46:52 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:46:52 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:46:52 | INFO     | train_model_window | 用户「pyd」关闭了 SHERPA 模型训练窗口
+2026-01-09 09:46:53 | INFO     | main_window     | 用户「pyd」将识别算法从 SHERPA 切换为 ECAPA
+2026-01-09 09:46:53 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，ECAPA 算法需要 3 个，状态 足够
+2026-01-09 09:46:53 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:46:54 | INFO     | train_model_window | 用户「pyd」的 ECAPA 模型训练窗口初始化完成
+2026-01-09 09:46:54 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:46:54 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:46:54 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:46:54 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:46:54 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：ECAPA，模型保存路径：../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:46:54 | INFO     | train_model_window | 用户「pyd」启动了 ECAPA 模型训练线程
+2026-01-09 09:46:54 | INFO     | model_trainer   | 【pyd】ECAPA模型训练启动，有效音频样本数：3
+2026-01-09 09:46:54 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始提取3个音频的嵌入特征
+2026-01-09 09:46:54 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\train_1_1767922947.wav
+2026-01-09 09:46:54 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.062069, 采样率=16000Hz
+2026-01-09 09:46:54 | INFO     | main_window     | 用户「pyd」打开了 ECAPA 模型训练窗口，当前样本数：3
+2026-01-09 09:46:54 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：开始使用ECAPA算法训练模型...
+2026-01-09 09:46:54 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：10%
+2026-01-09 09:46:54 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：30%
+2026-01-09 09:46:54 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：已成功加载ECAPA预训练模型...
+2026-01-09 09:46:54 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：提取ECAPA音频嵌入特征...
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.062283
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\train_2_1767922954.wav
+2026-01-09 09:46:55 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：50%
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.070343, 采样率=16000Hz
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.070569
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\train_3_1767922960.wav
+2026-01-09 09:46:55 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：70%
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.070503, 采样率=16000Hz
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.460s, RMS=0.075500
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:46:55 | DEBUG    | model_trainer   | 【pyd】ECAPA模型：嵌入特征提取完成，有效嵌入数量：3，嵌入维度：torch.Size([1, 192])
+2026-01-09 09:46:55 | INFO     | model_trainer   | 【pyd】ECAPA模板筛选：原始 3 → 保留 2
+2026-01-09 09:46:55 | WARNING  | model_trainer   | 有效嵌入不足，回退使用全部嵌入
+2026-01-09 09:46:55 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：90%
+2026-01-09 09:46:55 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：生成ECAPA声纹模板（平均嵌入）...
+2026-01-09 09:46:55 | WARNING  | model_trainer   | 【pyd】ECAPA样本数=3 < 5，使用默认阈值 0.66
+2026-01-09 09:46:55 | INFO     | model_trainer   | 【pyd】ECAPA模型：声纹模板生成完成，已保存至../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:46:55 | SUCCESS  | model_trainer   | 【pyd】ECAPA模型训练成功，模型已保存至：../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:46:55 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：100%
+2026-01-09 09:46:55 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：ECAPA模型训练完成
+2026-01-09 09:46:55 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：ECAPA模型训练成功
+2026-01-09 09:46:56 | SUCCESS  | train_model_window | 用户「pyd」ECAPA 模型训练成功：ECAPA模型训练成功
+2026-01-09 09:46:56 | DEBUG    | main_window     | 用户「pyd」刷新了数据状态和模型状态
+2026-01-09 09:46:56 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 3，ECAPA 算法需要 3 个，状态 足够
+2026-01-09 09:46:56 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:46:56 | INFO     | train_model_window | 用户「pyd」关闭了 ECAPA 模型训练窗口
+2026-01-09 09:47:00 | INFO     | test_mode_select | 用户「pyd」的测试方式选择窗口初始化完成
+2026-01-09 09:47:00 | INFO     | main_window     | 用户「pyd」打开了测试方式选择窗口
+2026-01-09 09:47:01 | INFO     | test_mode_select | 用户「pyd」选择测试方式：multi，测试次数：3
+2026-01-09 09:47:05 | INFO     | test_window     | 用户「pyd」的测试窗口初始化完成
+  测试方式：multi
+  测试次数：5
+  文本类型：standard
+  已训练算法：['SHERPA', 'ECAPA']
+  测试素材已随机打乱
+2026-01-09 09:47:05 | SUCCESS  | test_mode_select | 用户「pyd」确认测试配置：方式=multi，次数=5，文本类型=standard
+2026-01-09 09:47:06 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_1_1767923226.wav
+  录制时长：4 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:47:06 | INFO     | test_window     | 用户「pyd」开始录制第 1 次测试音频，保存路径：../voice_dataset\pyd\test_1_1767923226.wav，时长：4 秒
+2026-01-09 09:47:06 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:47:06 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:47:06 | INFO     | audio_recorder  | 开始音频采集，总数据块数：62，预计录制4秒
+2026-01-09 09:47:07 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/62个数据块），剩余4.0秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:47:07 | DEBUG    | audio_recorder  | 音频采集进度：17%（第11/62个数据块），剩余3.4秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:47:07 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:08 | DEBUG    | audio_recorder  | 音频采集进度：33%（第21/62个数据块），剩余2.7秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:47:08 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:09 | DEBUG    | audio_recorder  | 音频采集进度：50%（第31/62个数据块），剩余2.1秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:47:09 | DEBUG    | audio_recorder  | 音频采集进度：66%（第41/62个数据块），剩余1.4秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:09 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:47:10 | DEBUG    | audio_recorder  | 音频采集进度：82%（第51/62个数据块），剩余0.8秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:47:10 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:47:11 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:47:11 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:47:11 | DEBUG    | audio_recorder  | 音频采集进度：98%（第61/62个数据块），剩余0.2秒
+2026-01-09 09:47:11 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:47:11 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:47:11 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_1_1767923226.wav
+2026-01-09 09:47:11 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_1_1767923226.wav（文件大小：126976 字节）
+2026-01-09 09:47:11 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:47:11 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件1个，非目标文件0个
+2026-01-09 09:47:11 | DEBUG    | test_window     | 用户「pyd」更新测试文本为打乱后列表的第 2 条标准文本
+2026-01-09 09:47:11 | DEBUG    | test_window     | 用户「pyd」当前测试进度：第 2 条 / 共 5 条
+2026-01-09 09:47:11 | INFO     | test_window     | 用户「pyd」将测试序号从 1 切换为 2
+2026-01-09 09:47:11 | WARNING  | test_window     | 用户「pyd」第 2 次测试音频录制被取消
+2026-01-09 09:47:11 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:47:11 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:47:11 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:47:11 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:47:12 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_2_1767923232.wav
+  录制时长：5 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:47:12 | INFO     | test_window     | 用户「pyd」开始录制第 2 次测试音频，保存路径：../voice_dataset\pyd\test_2_1767923232.wav，时长：5 秒
+2026-01-09 09:47:12 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:47:12 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:47:12 | INFO     | audio_recorder  | 开始音频采集，总数据块数：78，预计录制5秒
+2026-01-09 09:47:13 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/78个数据块），剩余5.0秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余5.0秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.9秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.9秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.8秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.7秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.7秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.6秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.6秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.5秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.4秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.4秒
+2026-01-09 09:47:13 | DEBUG    | audio_recorder  | 音频采集进度：14%（第11/78个数据块），剩余4.4秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.3秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.2秒
+2026-01-09 09:47:13 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.2秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.1秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:47:14 | DEBUG    | audio_recorder  | 音频采集进度：26%（第21/78个数据块），剩余3.7秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:47:14 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:47:15 | DEBUG    | audio_recorder  | 音频采集进度：39%（第31/78个数据块），剩余3.1秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:47:15 | DEBUG    | audio_recorder  | 音频采集进度：52%（第41/78个数据块），剩余2.4秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:47:15 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:47:16 | DEBUG    | audio_recorder  | 音频采集进度：65%（第51/78个数据块），剩余1.8秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:16 | DEBUG    | audio_recorder  | 音频采集进度：78%（第61/78个数据块），剩余1.2秒
+2026-01-09 09:47:16 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:17 | DEBUG    | audio_recorder  | 音频采集进度：91%（第71/78个数据块），剩余0.5秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:47:17 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:47:18 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:47:18 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_2_1767923232.wav
+2026-01-09 09:47:18 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_2_1767923232.wav（文件大小：159744 字节）
+2026-01-09 09:47:18 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:47:18 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件2个，非目标文件0个
+2026-01-09 09:47:18 | DEBUG    | test_window     | 用户「pyd」更新测试文本为打乱后列表的第 3 条标准文本
+2026-01-09 09:47:18 | DEBUG    | test_window     | 用户「pyd」当前测试进度：第 3 条 / 共 5 条
+2026-01-09 09:47:18 | INFO     | test_window     | 用户「pyd」将测试序号从 2 切换为 3
+2026-01-09 09:47:18 | WARNING  | test_window     | 用户「pyd」第 3 次测试音频录制被取消
+2026-01-09 09:47:18 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:47:18 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:47:18 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:47:18 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:47:19 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_3_1767923239.wav
+  录制时长：4 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:47:19 | INFO     | test_window     | 用户「pyd」开始录制第 3 次测试音频，保存路径：../voice_dataset\pyd\test_3_1767923239.wav，时长：4 秒
+2026-01-09 09:47:19 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:47:19 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:47:19 | INFO     | audio_recorder  | 开始音频采集，总数据块数：62，预计录制4秒
+2026-01-09 09:47:19 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/62个数据块），剩余4.0秒
+2026-01-09 09:47:19 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:47:19 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:47:19 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:47:19 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:47:19 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:19 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:47:20 | DEBUG    | audio_recorder  | 音频采集进度：17%（第11/62个数据块），剩余3.4秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:20 | DEBUG    | audio_recorder  | 音频采集进度：33%（第21/62个数据块），剩余2.7秒
+2026-01-09 09:47:20 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:21 | DEBUG    | audio_recorder  | 音频采集进度：50%（第31/62个数据块），剩余2.1秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:47:21 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:47:22 | DEBUG    | audio_recorder  | 音频采集进度：66%（第41/62个数据块），剩余1.4秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:47:22 | DEBUG    | audio_recorder  | 音频采集进度：82%（第51/62个数据块），剩余0.8秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:47:22 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:47:23 | DEBUG    | audio_recorder  | 音频采集进度：98%（第61/62个数据块），剩余0.2秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:47:23 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_3_1767923239.wav
+2026-01-09 09:47:23 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_3_1767923239.wav（文件大小：126976 字节）
+2026-01-09 09:47:23 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件3个，非目标文件0个
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」更新测试文本为打乱后列表的第 4 条标准文本
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」当前测试进度：第 4 条 / 共 5 条
+2026-01-09 09:47:23 | INFO     | test_window     | 用户「pyd」将测试序号从 3 切换为 4
+2026-01-09 09:47:23 | WARNING  | test_window     | 用户「pyd」第 4 次测试音频录制被取消
+2026-01-09 09:47:23 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:47:23 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:47:23 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:47:23 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:47:24 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_4_1767923244.wav
+  录制时长：5 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:47:24 | INFO     | test_window     | 用户「pyd」开始录制第 4 次测试音频，保存路径：../voice_dataset\pyd\test_4_1767923244.wav，时长：5 秒
+2026-01-09 09:47:24 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:47:24 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:47:24 | INFO     | audio_recorder  | 开始音频采集，总数据块数：78，预计录制5秒
+2026-01-09 09:47:25 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/78个数据块），剩余5.0秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余5.0秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.9秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.9秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.8秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.7秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.7秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.6秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.6秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.5秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.4秒
+2026-01-09 09:47:25 | DEBUG    | audio_recorder  | 音频采集进度：14%（第11/78个数据块），剩余4.4秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.4秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.3秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.2秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.2秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.1秒
+2026-01-09 09:47:25 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:47:26 | DEBUG    | audio_recorder  | 音频采集进度：26%（第21/78个数据块），剩余3.7秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:47:26 | DEBUG    | audio_recorder  | 音频采集进度：39%（第31/78个数据块），剩余3.1秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:47:26 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:47:27 | DEBUG    | audio_recorder  | 音频采集进度：52%（第41/78个数据块），剩余2.4秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:27 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:47:28 | DEBUG    | audio_recorder  | 音频采集进度：65%（第51/78个数据块），剩余1.8秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:28 | DEBUG    | audio_recorder  | 音频采集进度：78%（第61/78个数据块），剩余1.2秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:47:28 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:47:29 | DEBUG    | audio_recorder  | 音频采集进度：91%（第71/78个数据块），剩余0.5秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:47:29 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_4_1767923244.wav
+2026-01-09 09:47:29 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_4_1767923244.wav（文件大小：159744 字节）
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件4个，非目标文件0个
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」更新测试文本为打乱后列表的第 5 条标准文本
+2026-01-09 09:47:29 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」当前测试进度：第 5 条 / 共 5 条
+2026-01-09 09:47:29 | INFO     | test_window     | 用户「pyd」将测试序号从 4 切换为 5
+2026-01-09 09:47:29 | WARNING  | test_window     | 用户「pyd」第 5 次测试音频录制被取消
+2026-01-09 09:47:29 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:47:29 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:47:29 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:47:30 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:47:30 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_5_1767923250.wav
+  录制时长：4 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:47:30 | INFO     | test_window     | 用户「pyd」开始录制第 5 次测试音频，保存路径：../voice_dataset\pyd\test_5_1767923250.wav，时长：4 秒
+2026-01-09 09:47:30 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:47:30 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:47:30 | INFO     | audio_recorder  | 开始音频采集，总数据块数：62，预计录制4秒
+2026-01-09 09:47:31 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/62个数据块），剩余4.0秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:47:31 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:47:32 | DEBUG    | audio_recorder  | 音频采集进度：17%（第11/62个数据块），剩余3.4秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:47:32 | DEBUG    | audio_recorder  | 音频采集进度：33%（第21/62个数据块），剩余2.7秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:47:32 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:33 | DEBUG    | audio_recorder  | 音频采集进度：50%（第31/62个数据块），剩余2.1秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:47:33 | DEBUG    | audio_recorder  | 音频采集进度：66%（第41/62个数据块），剩余1.4秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:33 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:47:34 | DEBUG    | audio_recorder  | 音频采集进度：82%（第51/62个数据块），剩余0.8秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:47:34 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:47:35 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:47:35 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:47:35 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:47:35 | DEBUG    | audio_recorder  | 音频采集进度：98%（第61/62个数据块），剩余0.2秒
+2026-01-09 09:47:35 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:47:35 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:47:35 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_5_1767923250.wav
+2026-01-09 09:47:35 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_5_1767923250.wav（文件大小：126976 字节）
+2026-01-09 09:47:35 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:47:35 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件5个，非目标文件0个
+2026-01-09 09:47:35 | WARNING  | test_window     | 用户「pyd」测试时，未找到其他被试用户目录，无法获取非目标数据
+2026-01-09 09:47:35 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件5个，非目标文件0个
+2026-01-09 09:47:35 | INFO     | test_window     | 用户「pyd」已完成 5 次测试音频录制，已加载 0 个非目标素材，可启动模型评估
+2026-01-09 09:47:35 | WARNING  | test_window     | 用户「pyd」第 5 次测试音频录制被取消
+2026-01-09 09:47:35 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:47:35 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:47:35 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:47:35 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:47:36 | INFO     | test_window     | 用户「pyd」合并测试文件：目标5个（匹配） + 非目标0个（不匹配） = 总计5个
+2026-01-09 09:47:36 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:47:37 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:47:37 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:47:37 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:47:37 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：SHERPA，模型保存路径：../voice_dataset\pyd\SHERPA_model.pkl
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】测试线程初始化完成
+  算法：SHERPA
+  测试文件数量：5
+  模型路径：../voice_dataset\pyd\SHERPA_model.pkl
+  测试文件列表：['test_1_1767923226.wav', 'test_2_1767923232.wav', 'test_3_1767923239.wav', 'test_4_1767923244.wav', 'test_5_1767923250.wav']
+2026-01-09 09:47:37 | INFO     | test_window     | 用户「pyd」启动 SHERPA 算法测试，测试文件总数：5
+2026-01-09 09:47:37 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】SHERPA模型测试启动，待测试文件数：5
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】SHERPA模型：开始加载模板（路径：../voice_dataset\pyd\SHERPA_model.pkl）
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】SHERPA模型：模板加载成功
+  模板维度：torch.Size([256])
+  匹配阈值：0.7600
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 1/5 个文件：test_1_1767923226.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.089102
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:47:37 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\test_1_1767923226.wav
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】Sherpa 阈值 EMA 更新：0.7600 → 0.7621
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_1_1767923226.wav 测试完成
+  相似度：0.8673
+  阈值：0.7621
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 2/5 个文件：test_2_1767923232.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 音频信息: 长度=4.992s, RMS能量=0.043349
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 长音频(4.99s)，使用大窗口1024(64ms)
+2026-01-09 09:47:37 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:47:37 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 提取到语音段 1: 3.584s, RMS=0.051156
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | VAD检测结果: 找到1个语音段，跳过0个
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 检测到1个语音段，直接使用
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】Sherpa 阈值 EMA 更新：0.7621 → 0.7645
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_2_1767923232.wav 测试完成
+  相似度：0.8805
+  阈值：0.7645
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 3/5 个文件：test_3_1767923239.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.055691
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:47:37 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\test_3_1767923239.wav
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】Sherpa 阈值 EMA 更新：0.7645 → 0.7673
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_3_1767923239.wav 测试完成
+  相似度：0.9031
+  阈值：0.7673
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 4/5 个文件：test_4_1767923244.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 音频信息: 长度=4.992s, RMS能量=0.027209
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 长音频(4.99s)，使用大窗口1024(64ms)
+2026-01-09 09:47:37 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:47:37 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：ECAPA，模型保存路径：../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】测试线程初始化完成
+  算法：ECAPA
+  测试文件数量：5
+  模型路径：../voice_dataset\pyd\ECAPA_model.pkl
+  测试文件列表：['test_1_1767923226.wav', 'test_2_1767923232.wav', 'test_3_1767923239.wav', 'test_4_1767923244.wav', 'test_5_1767923250.wav']
+2026-01-09 09:47:37 | INFO     | test_window     | 用户「pyd」启动 ECAPA 算法测试，测试文件总数：5
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】ECAPA模型测试启动，待测试文件数：5
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：开始使用SHERPA算法进行测试...
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 提取到语音段 1: 3.648s, RMS=0.031796
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】ECAPA模型：开始加载预训练模型和声纹模板
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：加载 SHERPA预训练模型和声纹模板...
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | VAD检测结果: 找到1个语音段，跳过0个
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：逐个测试音频文件，提取 Sherpa 声纹嵌入...
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 检测到1个语音段，直接使用
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：20%
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：40%
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：60%
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：开始使用ECAPA算法进行测试...
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】Sherpa 阈值 EMA 更新：0.7673 → 0.7692
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_4_1767923244.wav 测试完成
+  相似度：0.8634
+  阈值：0.7692
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 5/5 个文件：test_5_1767923250.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.048097
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：加载ECAPA预训练模型和声纹模板...
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：80%
+2026-01-09 09:47:37 | ERROR    | model_tester    | 【pyd】ECAPA测试异常：测试失败: 加载ECAPA模型/模板失败：Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../local_speechbrain_models/spkrec-ecapa-voxceleb'. Use `repo_type` argument if needed.
+2026-01-09 09:47:37 | ERROR    | test_window     | 用户「pyd」ECAPA 算法评估失败：测试失败: 加载ECAPA模型/模板失败：Repo id must be in the form 'repo_name' or 'namespace/repo_name': '../local_speechbrain_models/spkrec-ecapa-voxceleb'. Use `repo_type` argument if needed.
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 提取到语音段 1: 3.456s, RMS=0.051528
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | VAD检测结果: 找到1个语音段，跳过0个
+2026-01-09 09:47:37 | DEBUG    | model_trainer   | 检测到1个语音段，直接使用
+2026-01-09 09:47:37 | INFO     | model_tester    | 【pyd】Sherpa 阈值 EMA 更新：0.7692 → 0.7713
+2026-01-09 09:47:37 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_5_1767923250.wav 测试完成
+  相似度：0.8744
+  阈值：0.7713
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:47:37 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：100%
+2026-01-09 09:47:37 | SUCCESS  | model_tester    | 【pyd】SHERPA模型测试完成
+  总测试数：5
+  正确数：5
+  准确率：1.0000（100.00%）
+2026-01-09 09:47:37 | SUCCESS  | test_window     | 用户「pyd」SHERPA 算法评估完成，准确率：100.00%，正确数：5/5
+2026-01-09 09:47:37 | SUCCESS  | test_window     | 用户「pyd」所有已训练算法测试完成（已明确真值标签评估）
+2026-01-09 09:47:52 | DEBUG    | main_window     | 用户「pyd」刷新了数据状态和模型状态
+2026-01-09 09:47:52 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 8，ECAPA 算法需要 3 个，状态 足够
+2026-01-09 09:47:52 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:48:12 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 09:48:12 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 09:48:16 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 09:48:16 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 09:48:16 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 09:48:16 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 8，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:48:16 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:48:19 | INFO     | train_model_window | 用户「pyd」的 SHERPA 模型训练窗口初始化完成
+2026-01-09 09:48:19 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:48:19 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:48:19 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:48:20 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:48:22 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：SHERPA，模型保存路径：../voice_dataset\pyd\SHERPA_model.pkl
+2026-01-09 09:48:22 | INFO     | train_model_window | 用户「pyd」启动了 SHERPA 模型训练线程
+2026-01-09 09:48:22 | INFO     | main_window     | 用户「pyd」打开了 SHERPA 模型训练窗口，当前样本数：8
+2026-01-09 09:48:22 | INFO     | model_trainer   | 【pyd】SHERPA模型训练启动，有效音频样本数：8
+2026-01-09 09:48:22 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始提取8个音频的嵌入特征
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.089102
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:48:22 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：开始使用SHERPA算法训练模型...
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：10%
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：30%
+2026-01-09 09:48:22 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：已成功加载SHERPA预训练模型...
+2026-01-09 09:48:22 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：提取SHERPA音频嵌入特征...
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:48:22 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\test_1_1767923226.wav
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：37%
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 音频信息: 长度=4.992s, RMS能量=0.043349
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 长音频(4.99s)，使用大窗口1024(64ms)
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 提取到语音段 1: 3.584s, RMS=0.051156
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | VAD检测结果: 找到1个语音段，跳过0个
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 检测到1个语音段，直接使用
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：45%
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.055691
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:48:22 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\test_3_1767923239.wav
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：52%
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 音频信息: 长度=4.992s, RMS能量=0.027209
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 长音频(4.99s)，使用大窗口1024(64ms)
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 提取到语音段 1: 3.648s, RMS=0.031796
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | VAD检测结果: 找到1个语音段，跳过0个
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 检测到1个语音段，直接使用
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：60%
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.048097
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 提取到语音段 1: 3.456s, RMS=0.051528
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | VAD检测结果: 找到1个语音段，跳过0个
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 检测到1个语音段，直接使用
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.062069
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：67%
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:48:22 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\train_1_1767922947.wav
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：75%
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.070343
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:48:22 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\train_2_1767922954.wav
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：82%
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.070503
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:48:22 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\train_3_1767922960.wav
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:48:22 | DEBUG    | model_trainer   | 【pyd】ECAPA模型：嵌入特征提取完成，有效嵌入数量：8，嵌入维度：(256,)
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：90%
+2026-01-09 09:48:22 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：生成SHERPA声纹模板（平均嵌入）...
+2026-01-09 09:48:22 | INFO     | model_trainer   | 【pyd】SHERPA自适应阈值学习完成：0.8000（样本数=6）
+2026-01-09 09:48:22 | SUCCESS  | model_trainer   | 【pyd】SHERPA模型训练成功，模型已保存至：../voice_dataset\pyd\SHERPA_model.pkl
+2026-01-09 09:48:22 | DEBUG    | train_model_window | 用户「pyd」SHERPA 模型训练进度：100%
+2026-01-09 09:48:22 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：SHERPA模型训练完成
+2026-01-09 09:48:22 | INFO     | train_model_window | 用户「pyd」SHERPA 模型训练过程：SHERPA模型训练成功
+2026-01-09 09:48:23 | SUCCESS  | train_model_window | 用户「pyd」SHERPA 模型训练成功：SHERPA模型训练成功
+2026-01-09 09:48:24 | DEBUG    | main_window     | 用户「pyd」刷新了数据状态和模型状态
+2026-01-09 09:48:24 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 8，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 09:48:24 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:48:24 | INFO     | train_model_window | 用户「pyd」关闭了 SHERPA 模型训练窗口
+2026-01-09 09:48:24 | INFO     | main_window     | 用户「pyd」将识别算法从 SHERPA 切换为 ECAPA
+2026-01-09 09:48:24 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 8，ECAPA 算法需要 3 个，状态 足够
+2026-01-09 09:48:24 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:48:25 | INFO     | train_model_window | 用户「pyd」的 ECAPA 模型训练窗口初始化完成
+2026-01-09 09:48:25 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:48:25 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:48:25 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:48:25 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:48:25 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：ECAPA，模型保存路径：../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:48:25 | INFO     | train_model_window | 用户「pyd」启动了 ECAPA 模型训练线程
+2026-01-09 09:48:25 | INFO     | model_trainer   | 【pyd】ECAPA模型训练启动，有效音频样本数：8
+2026-01-09 09:48:25 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始提取8个音频的嵌入特征
+2026-01-09 09:48:25 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_1_1767923226.wav
+2026-01-09 09:48:25 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.089102, 采样率=16000Hz
+2026-01-09 09:48:25 | INFO     | main_window     | 用户「pyd」打开了 ECAPA 模型训练窗口，当前样本数：8
+2026-01-09 09:48:25 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：开始使用ECAPA算法训练模型...
+2026-01-09 09:48:25 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：10%
+2026-01-09 09:48:25 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：30%
+2026-01-09 09:48:25 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：已成功加载ECAPA预训练模型...
+2026-01-09 09:48:25 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：提取ECAPA音频嵌入特征...
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.910s, RMS=0.089758
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_2_1767923232.wav
+2026-01-09 09:48:26 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：37%
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=4.992s, RMS能量=0.043349, 采样率=16000Hz
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频总长: 4.992s, 使用最小段长: 0.500s
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 4.970s, RMS=0.043445
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_3_1767923239.wav
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.055691, 采样率=16000Hz
+2026-01-09 09:48:26 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：45%
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.720s, RMS=0.057518
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_4_1767923244.wav
+2026-01-09 09:48:26 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：52%
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=4.992s, RMS能量=0.027209, 采样率=16000Hz
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频总长: 4.992s, 使用最小段长: 0.500s
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 4.970s, RMS=0.027269
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:48:26 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：60%
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_5_1767923250.wav
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.048097, 采样率=16000Hz
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.048268
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\train_1_1767922947.wav
+2026-01-09 09:48:26 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：67%
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.062069, 采样率=16000Hz
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.062283
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\train_2_1767922954.wav
+2026-01-09 09:48:26 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：75%
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.070343, 采样率=16000Hz
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.070569
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\train_3_1767922960.wav
+2026-01-09 09:48:26 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：82%
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.070503, 采样率=16000Hz
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.460s, RMS=0.075500
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:48:26 | DEBUG    | model_trainer   | 【pyd】ECAPA模型：嵌入特征提取完成，有效嵌入数量：8，嵌入维度：torch.Size([1, 192])
+2026-01-09 09:48:26 | INFO     | model_trainer   | 【pyd】ECAPA模板筛选：原始 8 → 保留 6
+2026-01-09 09:48:26 | INFO     | model_trainer   | 【pyd】ECAPA自适应阈值学习完成：0.7256（样本数=6）
+2026-01-09 09:48:26 | INFO     | model_trainer   | 【pyd】ECAPA模型：声纹模板生成完成，已保存至../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:48:26 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：90%
+2026-01-09 09:48:26 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：生成ECAPA声纹模板（平均嵌入）...
+2026-01-09 09:48:26 | SUCCESS  | model_trainer   | 【pyd】ECAPA模型训练成功，模型已保存至：../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:48:26 | DEBUG    | train_model_window | 用户「pyd」ECAPA 模型训练进度：100%
+2026-01-09 09:48:26 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：ECAPA模型训练完成
+2026-01-09 09:48:26 | INFO     | train_model_window | 用户「pyd」ECAPA 模型训练过程：ECAPA模型训练成功
+2026-01-09 09:48:27 | SUCCESS  | train_model_window | 用户「pyd」ECAPA 模型训练成功：ECAPA模型训练成功
+2026-01-09 09:48:28 | DEBUG    | main_window     | 用户「pyd」刷新了数据状态和模型状态
+2026-01-09 09:48:28 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 8，ECAPA 算法需要 3 个，状态 足够
+2026-01-09 09:48:28 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 09:48:28 | INFO     | train_model_window | 用户「pyd」关闭了 ECAPA 模型训练窗口
+2026-01-09 09:48:29 | INFO     | test_mode_select | 用户「pyd」的测试方式选择窗口初始化完成
+2026-01-09 09:48:29 | INFO     | main_window     | 用户「pyd」打开了测试方式选择窗口
+2026-01-09 09:48:30 | INFO     | test_mode_select | 用户「pyd」选择测试方式：multi，测试次数：3
+2026-01-09 09:48:34 | INFO     | test_window     | 用户「pyd」的测试窗口初始化完成
+  测试方式：multi
+  测试次数：5
+  文本类型：standard
+  已训练算法：['SHERPA', 'ECAPA']
+  测试素材已随机打乱
+2026-01-09 09:48:34 | SUCCESS  | test_mode_select | 用户「pyd」确认测试配置：方式=multi，次数=5，文本类型=standard
+2026-01-09 09:48:35 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_1_1767923315.wav
+  录制时长：4 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:48:35 | INFO     | test_window     | 用户「pyd」开始录制第 1 次测试音频，保存路径：../voice_dataset\pyd\test_1_1767923315.wav，时长：4 秒
+2026-01-09 09:48:35 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:48:35 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:48:35 | INFO     | audio_recorder  | 开始音频采集，总数据块数：62，预计录制4秒
+2026-01-09 09:48:36 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/62个数据块），剩余4.0秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:48:36 | DEBUG    | audio_recorder  | 音频采集进度：17%（第11/62个数据块），剩余3.4秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:48:36 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:37 | DEBUG    | audio_recorder  | 音频采集进度：33%（第21/62个数据块），剩余2.7秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:48:37 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:48:38 | DEBUG    | audio_recorder  | 音频采集进度：50%（第31/62个数据块），剩余2.1秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:48:38 | DEBUG    | audio_recorder  | 音频采集进度：66%（第41/62个数据块），剩余1.4秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:48:38 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:48:39 | DEBUG    | audio_recorder  | 音频采集进度：82%（第51/62个数据块），剩余0.8秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:48:39 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:48:40 | DEBUG    | audio_recorder  | 音频采集进度：98%（第61/62个数据块），剩余0.2秒
+2026-01-09 09:48:40 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:48:40 | DEBUG    | test_window     | 用户「pyd」第 1 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:48:40 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_1_1767923315.wav
+2026-01-09 09:48:40 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_1_1767923315.wav（文件大小：126976 字节）
+2026-01-09 09:48:40 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件1个，非目标文件0个
+2026-01-09 09:48:40 | DEBUG    | test_window     | 用户「pyd」更新测试文本为打乱后列表的第 2 条标准文本
+2026-01-09 09:48:40 | DEBUG    | test_window     | 用户「pyd」当前测试进度：第 2 条 / 共 5 条
+2026-01-09 09:48:40 | INFO     | test_window     | 用户「pyd」将测试序号从 1 切换为 2
+2026-01-09 09:48:40 | WARNING  | test_window     | 用户「pyd」第 2 次测试音频录制被取消
+2026-01-09 09:48:40 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:48:40 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:48:40 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:48:40 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:48:40 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:48:40 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_2_1767923320.wav
+  录制时长：5 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:48:40 | INFO     | test_window     | 用户「pyd」开始录制第 2 次测试音频，保存路径：../voice_dataset\pyd\test_2_1767923320.wav，时长：5 秒
+2026-01-09 09:48:40 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:48:40 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:48:40 | INFO     | audio_recorder  | 开始音频采集，总数据块数：78，预计录制5秒
+2026-01-09 09:48:41 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/78个数据块），剩余5.0秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余5.0秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.9秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.9秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.8秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.7秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.7秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.6秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.6秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.5秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.4秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.4秒
+2026-01-09 09:48:41 | DEBUG    | audio_recorder  | 音频采集进度：14%（第11/78个数据块），剩余4.4秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.3秒
+2026-01-09 09:48:41 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.2秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.2秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.1秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:48:42 | DEBUG    | audio_recorder  | 音频采集进度：26%（第21/78个数据块），剩余3.7秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:48:42 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:48:43 | DEBUG    | audio_recorder  | 音频采集进度：39%（第31/78个数据块），剩余3.1秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:48:43 | DEBUG    | audio_recorder  | 音频采集进度：52%（第41/78个数据块），剩余2.4秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:48:43 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:48:44 | DEBUG    | audio_recorder  | 音频采集进度：65%（第51/78个数据块），剩余1.8秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:48:44 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:48:45 | DEBUG    | audio_recorder  | 音频采集进度：78%（第61/78个数据块），剩余1.2秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:48:45 | DEBUG    | audio_recorder  | 音频采集进度：91%（第71/78个数据块），剩余0.5秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:48:45 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:48:46 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:48:46 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:48:46 | DEBUG    | test_window     | 用户「pyd」第 2 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:48:46 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_2_1767923320.wav
+2026-01-09 09:48:46 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_2_1767923320.wav（文件大小：159744 字节）
+2026-01-09 09:48:46 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:48:46 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件2个，非目标文件0个
+2026-01-09 09:48:46 | DEBUG    | test_window     | 用户「pyd」更新测试文本为打乱后列表的第 3 条标准文本
+2026-01-09 09:48:46 | DEBUG    | test_window     | 用户「pyd」当前测试进度：第 3 条 / 共 5 条
+2026-01-09 09:48:46 | INFO     | test_window     | 用户「pyd」将测试序号从 2 切换为 3
+2026-01-09 09:48:46 | WARNING  | test_window     | 用户「pyd」第 3 次测试音频录制被取消
+2026-01-09 09:48:46 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:48:46 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:48:46 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:48:46 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:48:46 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_3_1767923326.wav
+  录制时长：4 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:48:46 | INFO     | test_window     | 用户「pyd」开始录制第 3 次测试音频，保存路径：../voice_dataset\pyd\test_3_1767923326.wav，时长：4 秒
+2026-01-09 09:48:46 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:48:46 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:48:46 | INFO     | audio_recorder  | 开始音频采集，总数据块数：62，预计录制4秒
+2026-01-09 09:48:47 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/62个数据块），剩余4.0秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:48:47 | DEBUG    | audio_recorder  | 音频采集进度：17%（第11/62个数据块），剩余3.4秒
+2026-01-09 09:48:47 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:48 | DEBUG    | audio_recorder  | 音频采集进度：33%（第21/62个数据块），剩余2.7秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:48:48 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:48:49 | DEBUG    | audio_recorder  | 音频采集进度：50%（第31/62个数据块），剩余2.1秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:48:49 | DEBUG    | audio_recorder  | 音频采集进度：66%（第41/62个数据块），剩余1.4秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:48:49 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:48:50 | DEBUG    | audio_recorder  | 音频采集进度：82%（第51/62个数据块），剩余0.8秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:48:50 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:48:51 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:48:51 | DEBUG    | audio_recorder  | 音频采集进度：98%（第61/62个数据块），剩余0.2秒
+2026-01-09 09:48:51 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:48:51 | DEBUG    | test_window     | 用户「pyd」第 3 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:48:51 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_3_1767923326.wav
+2026-01-09 09:48:51 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_3_1767923326.wav（文件大小：126976 字节）
+2026-01-09 09:48:51 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:48:51 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件3个，非目标文件0个
+2026-01-09 09:48:51 | DEBUG    | test_window     | 用户「pyd」更新测试文本为打乱后列表的第 4 条标准文本
+2026-01-09 09:48:51 | DEBUG    | test_window     | 用户「pyd」当前测试进度：第 4 条 / 共 5 条
+2026-01-09 09:48:51 | INFO     | test_window     | 用户「pyd」将测试序号从 3 切换为 4
+2026-01-09 09:48:51 | WARNING  | test_window     | 用户「pyd」第 4 次测试音频录制被取消
+2026-01-09 09:48:51 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:48:51 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:48:51 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:48:51 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:48:51 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_4_1767923331.wav
+  录制时长：5 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:48:51 | INFO     | test_window     | 用户「pyd」开始录制第 4 次测试音频，保存路径：../voice_dataset\pyd\test_4_1767923331.wav，时长：5 秒
+2026-01-09 09:48:51 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:48:51 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:48:51 | INFO     | audio_recorder  | 开始音频采集，总数据块数：78，预计录制5秒
+2026-01-09 09:48:52 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/78个数据块），剩余5.0秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余5.0秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.9秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.9秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.8秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.7秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.7秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.6秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.6秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.5秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.4秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.4秒
+2026-01-09 09:48:52 | DEBUG    | audio_recorder  | 音频采集进度：14%（第11/78个数据块），剩余4.4秒
+2026-01-09 09:48:52 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.3秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.2秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.2秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.1秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:53 | DEBUG    | audio_recorder  | 音频采集进度：26%（第21/78个数据块），剩余3.7秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:48:53 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:48:54 | DEBUG    | audio_recorder  | 音频采集进度：39%（第31/78个数据块），剩余3.1秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:48:54 | DEBUG    | audio_recorder  | 音频采集进度：52%（第41/78个数据块），剩余2.4秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:48:54 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:48:55 | DEBUG    | audio_recorder  | 音频采集进度：65%（第51/78个数据块），剩余1.8秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:48:55 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:48:56 | DEBUG    | audio_recorder  | 音频采集进度：78%（第61/78个数据块），剩余1.2秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:48:56 | DEBUG    | audio_recorder  | 音频采集进度：91%（第71/78个数据块），剩余0.5秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:48:56 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:48:57 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:48:57 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:48:57 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:48:57 | DEBUG    | test_window     | 用户「pyd」第 4 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:48:57 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_4_1767923331.wav
+2026-01-09 09:48:57 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_4_1767923331.wav（文件大小：159744 字节）
+2026-01-09 09:48:57 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件4个，非目标文件0个
+2026-01-09 09:48:57 | DEBUG    | test_window     | 用户「pyd」更新测试文本为打乱后列表的第 5 条标准文本
+2026-01-09 09:48:57 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:48:57 | DEBUG    | test_window     | 用户「pyd」当前测试进度：第 5 条 / 共 5 条
+2026-01-09 09:48:57 | INFO     | test_window     | 用户「pyd」将测试序号从 4 切换为 5
+2026-01-09 09:48:57 | WARNING  | test_window     | 用户「pyd」第 5 次测试音频录制被取消
+2026-01-09 09:48:57 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:48:57 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:48:57 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:48:57 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:48:57 | INFO     | audio_recorder  | 音频录制线程初始化完成
+  保存路径：../voice_dataset\pyd\test_5_1767923337.wav
+  录制时长：4 秒
+  采样率：16000 Hz
+  声道数：1
+  采样格式：8（paInt16对应16位深度）
+2026-01-09 09:48:57 | INFO     | test_window     | 用户「pyd」开始录制第 5 次测试音频，保存路径：../voice_dataset\pyd\test_5_1767923337.wav，时长：4 秒
+2026-01-09 09:48:57 | INFO     | audio_recorder  | 开始初始化PyAudio实例并创建音频输入流
+2026-01-09 09:48:57 | DEBUG    | audio_recorder  | PyAudio实例初始化成功，音频流已打开（数据块大小：1024）
+2026-01-09 09:48:57 | INFO     | audio_recorder  | 开始音频采集，总数据块数：62，预计录制4秒
+2026-01-09 09:48:58 | DEBUG    | audio_recorder  | 音频采集进度：1%（第1/62个数据块），剩余4.0秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余4.0秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.9秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.8秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.7秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.6秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.5秒
+2026-01-09 09:48:58 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:48:59 | DEBUG    | audio_recorder  | 音频采集进度：17%（第11/62个数据块），剩余3.4秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.4秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.3秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.2秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.1秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余3.0秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.9秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.8秒
+2026-01-09 09:48:59 | DEBUG    | audio_recorder  | 音频采集进度：33%（第21/62个数据块），剩余2.7秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.7秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.6秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:48:59 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.5秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.4秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.3秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.2秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.1秒
+2026-01-09 09:49:00 | DEBUG    | audio_recorder  | 音频采集进度：50%（第31/62个数据块），剩余2.1秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余2.0秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.9秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.8秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.7秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.6秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.5秒
+2026-01-09 09:49:00 | DEBUG    | audio_recorder  | 音频采集进度：66%（第41/62个数据块），剩余1.4秒
+2026-01-09 09:49:00 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.4秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.3秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.2秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.1秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余1.0秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.9秒
+2026-01-09 09:49:01 | DEBUG    | audio_recorder  | 音频采集进度：82%（第51/62个数据块），剩余0.8秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.8秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.7秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.6秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:49:01 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.5秒
+2026-01-09 09:49:02 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:49:02 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.4秒
+2026-01-09 09:49:02 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.3秒
+2026-01-09 09:49:02 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:49:02 | DEBUG    | audio_recorder  | 音频采集进度：98%（第61/62个数据块），剩余0.2秒
+2026-01-09 09:49:02 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.2秒
+2026-01-09 09:49:02 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：正在录制：剩余0.1秒
+2026-01-09 09:49:02 | INFO     | audio_recorder  | 录制正常完成，开始保存音频文件至：../voice_dataset\pyd\test_5_1767923337.wav
+2026-01-09 09:49:02 | SUCCESS  | audio_recorder  | 音频文件保存成功：../voice_dataset\pyd\test_5_1767923337.wav（文件大小：126976 字节）
+2026-01-09 09:49:02 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件5个，非目标文件0个
+2026-01-09 09:49:02 | DEBUG    | audio_recorder  | 开始释放PyAudio音频资源（停止流+关闭流+终止实例）
+2026-01-09 09:49:02 | WARNING  | test_window     | 用户「pyd」测试时，未找到其他被试用户目录，无法获取非目标数据
+2026-01-09 09:49:02 | DEBUG    | test_window     | 用户「pyd」刷新测试文件列表：目标文件5个，非目标文件0个
+2026-01-09 09:49:02 | INFO     | test_window     | 用户「pyd」已完成 5 次测试音频录制，已加载 0 个非目标素材，可启动模型评估
+2026-01-09 09:49:02 | WARNING  | test_window     | 用户「pyd」第 5 次测试音频录制被取消
+2026-01-09 09:49:02 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：录制完成：已保存文件
+2026-01-09 09:49:02 | DEBUG    | audio_recorder  | 音频流已停止并关闭
+2026-01-09 09:49:02 | DEBUG    | audio_recorder  | PyAudio实例已终止
+2026-01-09 09:49:02 | DEBUG    | audio_recorder  | 音频录制线程资源释放完成，录制状态重置为False
+2026-01-09 09:49:04 | INFO     | test_window     | 用户「pyd」合并测试文件：目标5个（匹配） + 非目标0个（不匹配） = 总计5个
+2026-01-09 09:49:04 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:49:04 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:49:04 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:49:04 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:49:04 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：SHERPA，模型保存路径：../voice_dataset\pyd\SHERPA_model.pkl
+2026-01-09 09:49:04 | INFO     | model_tester    | 【pyd】测试线程初始化完成
+  算法：SHERPA
+  测试文件数量：5
+  模型路径：../voice_dataset\pyd\SHERPA_model.pkl
+  测试文件列表：['test_1_1767923315.wav', 'test_2_1767923320.wav', 'test_3_1767923326.wav', 'test_4_1767923331.wav', 'test_5_1767923337.wav']
+2026-01-09 09:49:04 | INFO     | test_window     | 用户「pyd」启动 SHERPA 算法测试，测试文件总数：5
+2026-01-09 09:49:04 | INFO     | model_trainer   | 【pyd】SHERPA模型：开始加载预训练模型
+2026-01-09 09:49:04 | INFO     | model_tester    | 【pyd】SHERPA模型测试启动，待测试文件数：5
+2026-01-09 09:49:04 | INFO     | model_tester    | 【pyd】SHERPA模型：开始加载模板（路径：../voice_dataset\pyd\SHERPA_model.pkl）
+2026-01-09 09:49:04 | INFO     | model_tester    | 【pyd】SHERPA模型：模板加载成功
+  模板维度：torch.Size([256])
+  匹配阈值：0.8000
+2026-01-09 09:49:04 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 1/5 个文件：test_1_1767923315.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.067989
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:49:04 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\test_1_1767923315.wav
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:49:04 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_1_1767923315.wav 测试完成
+  相似度：0.8875
+  阈值：0.8000
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:49:04 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 2/5 个文件：test_2_1767923320.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | 音频信息: 长度=4.992s, RMS能量=0.057535
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | 长音频(4.99s)，使用大窗口1024(64ms)
+2026-01-09 09:49:04 | INFO     | model_trainer   | 【pyd】SHERPA模型：预训练模型加载成功，使用设备：cpu
+2026-01-09 09:49:04 | INFO     | model_trainer   | 【pyd】ECAPA模型：开始加载预训练模型
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | 提取到语音段 1: 3.520s, RMS=0.068515
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | VAD检测结果: 找到1个语音段，跳过0个
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | 检测到1个语音段，直接使用
+2026-01-09 09:49:04 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_2_1767923320.wav 测试完成
+  相似度：0.8861
+  阈值：0.8000
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:49:04 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 3/5 个文件：test_3_1767923326.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.069898
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:49:04 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:49:04 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\test_3_1767923326.wav
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_3_1767923326.wav 测试完成
+  相似度：0.9097
+  阈值：0.8000
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 4/5 个文件：test_4_1767923331.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 音频信息: 长度=4.992s, RMS能量=0.073378
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 长音频(4.99s)，使用大窗口1024(64ms)
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 提取到语音段 1: 2.304s, RMS=0.105926
+2026-01-09 09:49:05 | INFO     | model_trainer   | 【pyd】ECAPA模型：预训练模型加载成功，使用设备：cuda
+2026-01-09 09:49:05 | INFO     | model_trainer   | 【pyd】训练线程初始化完成，算法：ECAPA，模型保存路径：../voice_dataset\pyd\ECAPA_model.pkl
+2026-01-09 09:49:05 | INFO     | model_tester    | 【pyd】测试线程初始化完成
+  算法：ECAPA
+  测试文件数量：5
+  模型路径：../voice_dataset\pyd\ECAPA_model.pkl
+  测试文件列表：['test_1_1767923315.wav', 'test_2_1767923320.wav', 'test_3_1767923326.wav', 'test_4_1767923331.wav', 'test_5_1767923337.wav']
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 提取到语音段 2: 1.280s, RMS=0.028229
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | VAD检测结果: 找到2个语音段，跳过0个
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 检测到2个语音段，计算平均嵌入
+2026-01-09 09:49:05 | INFO     | test_window     | 用户「pyd」启动 ECAPA 算法测试，测试文件总数：5
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_4_1767923331.wav 测试完成
+  相似度：0.8796
+  阈值：0.8000
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：开始使用SHERPA算法进行测试...
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】SHERPA模型：测试第 5/5 个文件：test_5_1767923337.wav
+  所属用户：pyd
+  真值标签：匹配
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：加载 SHERPA预训练模型和声纹模板...
+2026-01-09 09:49:05 | INFO     | model_tester    | 【pyd】ECAPA模型测试启动，待测试文件数：5
+2026-01-09 09:49:05 | INFO     | model_tester    | 【pyd】ECAPA模型：开始加载预训练模型和声纹模板
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：逐个测试音频文件，提取 Sherpa 声纹嵌入...
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：20%
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：40%
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 音频信息: 长度=3.968s, RMS能量=0.080070
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：60%
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 长音频(3.97s)，使用大窗口1024(64ms)
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：80%
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：开始使用ECAPA算法进行测试...
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：加载ECAPA预训练模型和声纹模板...
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | VAD检测结果: 找到0个语音段，跳过0个
+2026-01-09 09:49:05 | WARNING  | model_trainer   | Sherpa VAD 未检测到语音段，回退整段音频: ../voice_dataset\pyd\test_5_1767923337.wav
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 回退机制: 使用整段音频提取嵌入
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】SHERPA模型：文件 test_5_1767923337.wav 测试完成
+  相似度：0.9028
+  阈值：0.8000
+  预测标签：匹配
+  是否正确：True
+2026-01-09 09:49:05 | SUCCESS  | model_tester    | 【pyd】SHERPA模型测试完成
+  总测试数：5
+  正确数：5
+  准确率：1.0000（100.00%）
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」SHERPA 算法测试进度：100%
+2026-01-09 09:49:05 | SUCCESS  | test_window     | 用户「pyd」SHERPA 算法评估完成，准确率：100.00%，正确数：5/5
+2026-01-09 09:49:05 | INFO     | model_tester    | 【pyd】ECAPA模型：加载成功
+  使用设备：cuda
+  声纹模板维度：torch.Size([1, 192])
+  匹配阈值：0.7256
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：开始测试第 1/5 个文件：test_1_1767923315.wav（所属用户：pyd，真值：匹配）
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_1_1767923315.wav
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.067989, 采样率=16000Hz
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」第 5 次测试录制状态：逐个测试音频文件，提取嵌入并计算相似度...
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.068231
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:49:05 | DEBUG    | model_tester    |   相似度：0.7545 | 用户阈值：0.7256 | 预测标签：匹配
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：文件 test_1_1767923315.wav 测试完成
+  所属用户：pyd
+  真值标签：匹配
+  预测标签：匹配
+  相似度：0.7545
+  阈值：0.7256
+  是否正确：True
+  匹配状态：匹配 (相似度: 0.7545)
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：测试进度更新至 20%
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」ECAPA 算法测试进度：20%
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：开始测试第 2/5 个文件：test_2_1767923320.wav（所属用户：pyd，真值：匹配）
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_2_1767923320.wav
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=4.992s, RMS能量=0.057535, 采样率=16000Hz
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频总长: 4.992s, 使用最小段长: 0.500s
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 4.970s, RMS=0.057662
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:49:05 | DEBUG    | model_tester    |   相似度：0.7793 | 用户阈值：0.7256 | 预测标签：匹配
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：文件 test_2_1767923320.wav 测试完成
+  所属用户：pyd
+  真值标签：匹配
+  预测标签：匹配
+  相似度：0.7793
+  阈值：0.7256
+  是否正确：True
+  匹配状态：匹配 (相似度: 0.7793)
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：测试进度更新至 40%
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：开始测试第 3/5 个文件：test_3_1767923326.wav（所属用户：pyd，真值：匹配）
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_3_1767923326.wav
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」ECAPA 算法测试进度：40%
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.069898, 采样率=16000Hz
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.070147
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:49:05 | DEBUG    | model_tester    |   相似度：0.7378 | 用户阈值：0.7256 | 预测标签：匹配
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：文件 test_3_1767923326.wav 测试完成
+  所属用户：pyd
+  真值标签：匹配
+  预测标签：匹配
+  相似度：0.7378
+  阈值：0.7256
+  是否正确：True
+  匹配状态：匹配 (相似度: 0.7378)
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：测试进度更新至 60%
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：开始测试第 4/5 个文件：test_4_1767923331.wav（所属用户：pyd，真值：匹配）
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_4_1767923331.wav
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=4.992s, RMS能量=0.073378, 采样率=16000Hz
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」ECAPA 算法测试进度：60%
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频总长: 4.992s, 使用最小段长: 0.500s
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 4.970s, RMS=0.073541
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:49:05 | DEBUG    | model_tester    |   相似度：0.7861 | 用户阈值：0.7256 | 预测标签：匹配
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：文件 test_4_1767923331.wav 测试完成
+  所属用户：pyd
+  真值标签：匹配
+  预测标签：匹配
+  相似度：0.7861
+  阈值：0.7256
+  是否正确：True
+  匹配状态：匹配 (相似度: 0.7861)
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：测试进度更新至 80%
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：开始测试第 5/5 个文件：test_5_1767923337.wav（所属用户：pyd，真值：匹配）
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | 开始处理ECAPA音频: ../voice_dataset\pyd\test_5_1767923337.wav
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频信息: 长度=3.968s, RMS能量=0.080070, 采样率=16000Hz
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」ECAPA 算法测试进度：80%
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA音频总长: 3.968s, 使用最小段长: 0.500s
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA有效语音段 0: 3.940s, RMS=0.080302
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA VAD结果: 找到1个段，有效1个，跳过0个
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA使用全部1个嵌入的平均
+2026-01-09 09:49:05 | DEBUG    | model_trainer   | ECAPA嵌入提取成功: 最终嵌入形状=torch.Size([1, 192])
+2026-01-09 09:49:05 | DEBUG    | model_tester    |   相似度：0.7723 | 用户阈值：0.7256 | 预测标签：匹配
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：文件 test_5_1767923337.wav 测试完成
+  所属用户：pyd
+  真值标签：匹配
+  预测标签：匹配
+  相似度：0.7723
+  阈值：0.7256
+  是否正确：True
+  匹配状态：匹配 (相似度: 0.7723)
+2026-01-09 09:49:05 | DEBUG    | model_tester    | 【pyd】ECAPA模型：测试进度更新至 100%
+2026-01-09 09:49:05 | DEBUG    | test_window     | 用户「pyd」ECAPA 算法测试进度：100%
+2026-01-09 09:49:05 | SUCCESS  | model_tester    | 【pyd】ECAPA模型测试完成
+  总测试数：5
+  正确数：5
+  准确率：1.0000（100.00%）
+2026-01-09 09:49:05 | SUCCESS  | test_window     | 用户「pyd」ECAPA 算法评估完成，准确率：100.00%，正确数：5/5
+2026-01-09 09:49:05 | SUCCESS  | test_window     | 用户「pyd」所有已训练算法测试完成（已明确真值标签评估）
+2026-01-09 09:49:22 | DEBUG    | main_window     | 用户「pyd」刷新了数据状态和模型状态
+2026-01-09 09:49:22 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 13，ECAPA 算法需要 3 个，状态 足够
+2026-01-09 09:49:22 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 16:44:44 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 16:44:45 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 16:44:52 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 16:44:52 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 16:44:52 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 16:44:52 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 13，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 16:44:52 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
+2026-01-09 20:08:33 | INFO     | log_config      | 全局日志配置初始化完成
+2026-01-09 20:08:33 | INFO     | login_window    | 登录窗口已初始化完成
+2026-01-09 20:08:43 | INFO     | login_window    | 用户尝试登录，输入的用户名为：pyd
+2026-01-09 20:08:43 | SUCCESS  | login_window    | 用户「pyd」登录成功，用户文件夹路径：../voice_dataset\pyd
+2026-01-09 20:08:43 | INFO     | main_window     | 「pyd」的主窗口已初始化，默认算法：SHERPA
+2026-01-09 20:08:43 | DEBUG    | main_window     | 用户「pyd」数据状态：当前样本数 13，SHERPA 算法需要 3 个，状态 足够
+2026-01-09 20:08:43 | DEBUG    | main_window     | 用户「pyd」模型状态：SHERPA=已训练，ECAPA=已训练
