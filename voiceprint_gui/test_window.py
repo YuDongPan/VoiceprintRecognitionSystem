@@ -2,13 +2,15 @@ import os
 import time
 import random
 import pyaudio
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGroupBox, QLabel, QRadioButton, QTextEdit, QListWidget, QPushButton, QMessageBox
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGroupBox, QLabel, QRadioButton, QTextEdit, QListWidget, \
+    QPushButton, QMessageBox
 from PyQt5.QtCore import Qt, pyqtSignal
 from PyQt5.QtGui import QFont
 from loguru import logger
 import config as config
 from audio_recorder import RecorderThread
 from model_tester import TestThread
+
 
 class TestWindow(QWidget):
     # 定义测试窗口关闭信号
@@ -86,9 +88,11 @@ class TestWindow(QWidget):
         if len(non_target_files) > 0:
             if len(non_target_files) >= required_count:
                 non_target_files = random.sample(non_target_files, required_count)
-                logger.success(f"用户「{self.username}」成功获取 {len(non_target_files)} 个非目标被试音频文件（需求{required_count}个）")
+                logger.success(
+                    f"用户「{self.username}」成功获取 {len(non_target_files)} 个非目标被试音频文件（需求{required_count}个）")
             else:
-                logger.warning(f"用户「{self.username}」仅获取 {len(non_target_files)} 个非目标被试音频（需求{required_count}个，已取全部）")
+                logger.warning(
+                    f"用户「{self.username}」仅获取 {len(non_target_files)} 个非目标被试音频（需求{required_count}个，已取全部）")
         else:
             logger.warning(f"用户「{self.username}」未获取到任何非目标被试音频文件")
         return non_target_files
@@ -119,7 +123,8 @@ class TestWindow(QWidget):
         self.test_text_display.setFont(QFont("微软雅黑", 12))
         self.test_text_display.setMinimumHeight(100)
         if self.text_type == "standard":
-            self.test_text_display.setText(self.shuffled_test_texts[self.current_test_idx % len(self.shuffled_test_texts)])
+            self.test_text_display.setText(
+                self.shuffled_test_texts[self.current_test_idx % len(self.shuffled_test_texts)])
         else:
             self.test_text_display.setPlaceholderText("请在此输入自由发言的文本（或直接朗读，保持4-5秒）")
         text_layout.addWidget(self.test_text_display)
@@ -243,7 +248,8 @@ class TestWindow(QWidget):
         self.stop_test_btn.setEnabled(True)
         self.prev_test_btn.setEnabled(False)
         self.next_test_btn.setEnabled(False)
-        logger.info(f"用户「{self.username}」开始录制第 {self.current_test_idx + 1} 次测试音频，保存路径：{save_path}，时长：{duration} 秒")
+        logger.info(
+            f"用户「{self.username}」开始录制第 {self.current_test_idx + 1} 次测试音频，保存路径：{save_path}，时长：{duration} 秒")
 
     def stop_test_recording(self):
         """停止录制"""
@@ -275,13 +281,15 @@ class TestWindow(QWidget):
             self.non_target_test_files = self.get_non_target_audio_files(self.test_count)
             self.refresh_test_file_lists()
             self.start_evaluation_btn.setEnabled(True)
-            logger.info(f"用户「{self.username}」已完成 {len(self.target_test_files)} 次测试音频录制，已加载 {len(self.non_target_test_files)} 个非目标素材，可启动模型评估")
+            logger.info(
+                f"用户「{self.username}」已完成 {len(self.target_test_files)} 次测试音频录制，已加载 {len(self.non_target_test_files)} 个非目标素材，可启动模型评估")
         else:
             if self.current_test_idx < self.test_count - 1:
                 self.next_test()
 
         if "录制完成" in self.test_status_label.text():
-            logger.success(f"用户「{self.username}」第 {self.current_test_idx + 1 if self.current_test_idx < self.test_count else self.test_count} 次测试音频录制成功，文件：{file_path}")
+            logger.success(
+                f"用户「{self.username}」第 {self.current_test_idx + 1 if self.current_test_idx < self.test_count else self.test_count} 次测试音频录制成功，文件：{file_path}")
         else:
             logger.warning(f"用户「{self.username}」第 {self.current_test_idx + 1} 次测试音频录制被取消")
 
@@ -296,10 +304,12 @@ class TestWindow(QWidget):
         if self.non_target_test_files:
             for i, file_path in enumerate(self.non_target_test_files):
                 other_user = os.path.basename(os.path.dirname(file_path))
-                self.non_target_file_list.addItem(f"非目标{i + 1}（用户：{other_user}）: {os.path.basename(file_path)}（真值：不匹配）")
+                self.non_target_file_list.addItem(
+                    f"非目标{i + 1}（用户：{other_user}）: {os.path.basename(file_path)}（真值：不匹配）")
         else:
             self.non_target_file_list.addItem("暂无可用非目标被试音频素材")
-        logger.debug(f"用户「{self.username}」刷新测试文件列表：目标文件{len(self.target_test_files)}个，非目标文件{len(self.non_target_test_files)}个")
+        logger.debug(
+            f"用户「{self.username}」刷新测试文件列表：目标文件{len(self.target_test_files)}个，非目标文件{len(self.non_target_test_files)}个")
 
     def start_evaluation(self):
         """启动模型评估（明确真值标签）"""
@@ -319,7 +329,8 @@ class TestWindow(QWidget):
         # 合并目标和非目标文件
         final_test_files = self.target_test_files.copy()
         final_test_files.extend(self.non_target_test_files)
-        logger.info(f"用户「{self.username}」合并测试文件：目标{len(self.target_test_files)}个（匹配） + 非目标{len(self.non_target_test_files)}个（不匹配） = 总计{len(final_test_files)}个")
+        logger.info(
+            f"用户「{self.username}」合并测试文件：目标{len(self.target_test_files)}个（匹配） + 非目标{len(self.non_target_test_files)}个（不匹配） = 总计{len(final_test_files)}个")
 
         # 生成结果
         self.result_text.clear()
@@ -360,31 +371,72 @@ class TestWindow(QWidget):
         logger.debug(f"用户「{self.username}」{algo} 算法测试进度：{value}%")
 
     def on_algo_evaluation_finished(self, results, algo):
-        """算法评估完成回调（核心修改：区分ECAPA算法，展示相似度和阈值）"""
+        """算法评估完成回调（新增：准确率、精确率、召回率、F1、FFR、FAR计算）"""
         if results["success"]:
+            # 1. 统计混淆矩阵（TP/TN/FP/FN）
+            TP = 0  # 目标用户（匹配）→ 正确识别为匹配
+            TN = 0  # 非目标用户（不匹配）→ 正确识别为不匹配
+            FP = 0  # 非目标用户（不匹配）→ 错误识别为匹配（导致FAR）
+            FN = 0  # 目标用户（匹配）→ 错误识别为不匹配（导致FFR）
+
+            for detail in results["details"]:
+                true_label = detail["true_label"]
+                pred_label = detail["pred_label"]
+
+                if true_label == "匹配" and pred_label == "匹配":
+                    TP += 1
+                elif true_label == "不匹配" and pred_label == "不匹配":
+                    TN += 1
+                elif true_label == "不匹配" and pred_label == "匹配":
+                    FP += 1
+                elif true_label == "匹配" and pred_label == "不匹配":
+                    FN += 1
+
+            # 2. 计算核心评估指标（处理分母为0的情况）
+            total = TP + TN + FP + FN
+            accuracy = (TP + TN) / total if total > 0 else 0.0  # 准确率：整体识别正确率
+            precision = TP / (TP + FP) if (TP + FP) > 0 else 0.0  # 精确率：识别为"匹配"的样本中真正匹配的比例
+            recall = TP / (TP + FN) if (TP + FN) > 0 else 0.0  # 召回率：真正匹配的样本中被正确识别的比例
+            f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0  # F1分数：综合精确率和召回率
+            ffr = FN / (TP + FN) if (TP + FN) > 0 else 0.0  # 错误拒绝率（FFR）：目标用户被错误拒绝的比例
+            far = FP / (FP + TN) if (FP + TN) > 0 else 0.0  # 错误接受率（FAR）：非目标用户被错误接受的比例
+
+            # 3. 生成评估报告
             report = f"\n{algo} 算法测试结果："
+            report += f"\n  混淆矩阵统计：TP={TP} | TN={TN} | FP={FP} | FN={FN}"
+            report += f"\n  核心评估指标："
+            report += f"\n    准确率：{accuracy:.4f} ({accuracy:.2%})"
+            report += f"\n    精确率：{precision:.4f} ({precision:.2%})"
+            report += f"\n    召回率：{recall:.4f} ({recall:.2%})"
+            report += f"\n    F1分数：{f1:.4f}"
+            report += f"\n    FFR（错误拒绝率）：{ffr:.4f} ({ffr:.2%})"
+            report += f"\n    FAR（错误接受率）：{far:.4f} ({far:.2%})"
             report += f"\n  测试总数：{results['total']}（目标{len(self.target_test_files)}个（匹配） + 非目标{len(self.non_target_test_files)}个（不匹配））"
             report += f"\n  识别正确：{results['correct']}"
-            report += f"\n  准确率：{results['accuracy']:.2%}"
             report += f"\n  详细结果："
+
             for i, detail in enumerate(results["details"]):
                 # 基础信息：文件名、真值、预测值、测试结果
                 base_info = f"\n    样本{i + 1} ({detail['file']}): 真值={detail['true_label']} | 预测={detail['pred_label']} | 结果={detail['result']}"
-                # 核心修改：判断是否为ECAPA算法，若是则补充相似度和阈值
+                # 补充相似度和阈值（如有）
                 if "similarity" in detail and "threshold" in detail:
-                    # 补充SHERPA和ECAPA相似度（保留4位小数）和阈值（保留4位小数）
-                    ecapa_extra = f" | 相似度={detail['similarity']:.4f} | 阈值={detail['threshold']:.4f}"
-                    base_info += ecapa_extra
-                # 拼接最终信息
+                    base_info += f" | 相似度={detail['similarity']:.4f} | 阈值={detail['threshold']:.4f}"
                 report += base_info
+
             self.result_text.append(report)
             self.test_status_label.setText(f"{algo} 算法评估完成")
-            logger.success(f"用户「{self.username}」{algo} 算法评估完成，准确率：{results['accuracy']:.2%}，正确数：{results['correct']}/{results['total']}")
+            logger.success(
+                f"用户「{self.username}」{algo} 算法评估完成\n"
+                f"  准确率：{accuracy:.2%} | 精确率：{precision:.2%} | 召回率：{recall:.2%} | F1：{f1:.4f}\n"
+                f"  FFR：{ffr:.2%} | FAR：{far:.2%}\n"
+                f"  正确数：{results['correct']}/{results['total']}"
+            )
         else:
             error_msg = f"\n{algo} 算法评估失败：{results['message']}"
             self.result_text.append(error_msg)
             self.test_status_label.setText(f"{algo} 算法评估失败")
             logger.error(f"用户「{self.username}」{algo} 算法评估失败：{results['message']}")
+
         self.result_text.moveCursor(self.result_text.textCursor().End)
 
         # 所有算法完成后恢复按钮
